@@ -1,0 +1,38 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="create">
+
+<center>
+<h2>Create a New Profile</h2>
+<hr>
+<table>
+<tr>
+<td>USERNAME : </td>
+<td><input type="text" name="username"size="20" required pattern="[A-Z,a-z]{2,15}$"></td>
+</tr>
+<tr>
+<td>PASSWORD : </td>
+<td><input type="text" name="password"size="20" required pattern="[A-Z]{1,10}[a-z]{1,15}[0-9]{1,10}$" ></td></tr>
+<tr>
+<td>Role: </td>
+<td><select name="role" id="role">
+<option value="">Select Role
+				<option value="">Insured
+				<option value="">Claim Handler
+				<option value="">Claim Adjuster
+			   </select></td>
+</tr>
+<tr>
+<td><input type="submit" value="Create"></td>
+</tr>
+</table>
+</center>
+</form>
+</body>
+</html>
+</body>
+</html>
